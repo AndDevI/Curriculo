@@ -84,3 +84,21 @@ img {
   text-align: center;
   margin-bottom: var(--mb-3);
 }
+
+.bd-container {
+  max-width: 968px;
+  width: calc(100% - 3rem);
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-3);
+}
+
+.bd-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.one-header {
+  width: 100%;
+  position: fixed;
+  
+}
