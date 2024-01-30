@@ -169,6 +169,12 @@ img {
   margin-bottom: var(--mb-1);
 }
 
+/* Menu */
 .show-menu {
   bottom: var(--header-height); 
+}
+
+/* Ativar menu link */
+.active-link {
+  color: var(--title-color);
 }
