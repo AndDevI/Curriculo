@@ -131,7 +131,7 @@ img {
 } 
 
 
- 
+ /* Menu */
 .nav__logo, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);  
@@ -169,7 +169,6 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/* Menu */
 .show-menu {
   bottom: var(--header-height); 
 }
@@ -178,3 +177,4 @@ img {
 .active-link {
   color: var(--title-color);
 }
+
