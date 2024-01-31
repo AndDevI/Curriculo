@@ -267,16 +267,16 @@ img {
   text-align: center;
 }
 
-/* Educação */
-.education__content {
+/* Educação | Experiencia */
+.education__content, .experience__content {
   display: flex;
 }
 
-.education__time {
+.education__time, .experience__time {
   padding-right: 1rem;
 }
 
-.education__rounder {
+.education__rounder, .experience__rounder {
   position: relative;
   display: block;
   width: 16px;
@@ -286,7 +286,7 @@ img {
   margin-top: .25rem;
 }
 
-.education__line {
+.education__line, .experience__line {
   display: block;
   width: 2px;
   height: 110%;
@@ -294,15 +294,15 @@ img {
   transform: translate(7px, 0);
 }
 
-.education__data {
+.education__data, .experience__data {
   gap: .5rem;
 }
 
-.education__title {
+.education__title, .experience__title {
   font-size: var(--h3-font-size);
 }
 
-.education__studies {
+.education__studies, .experience__company {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
@@ -331,3 +331,5 @@ img {
   border-radius: 50%;
   margin-right: .75rem;
 }
+
+/* Experiencia */
