@@ -310,3 +310,24 @@ img {
 .education__year {
   font-size: var(--smaller-font-size);
 }
+
+/* Habilidades */
+.skills__content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.skills__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.skills_circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: .75rem;
+}
