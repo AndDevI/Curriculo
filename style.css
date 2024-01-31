@@ -332,4 +332,8 @@ img {
   margin-right: .75rem;
 }
 
-/* Experiencia */
+/* Certificados */
+.certificate__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
