@@ -258,13 +258,12 @@ img {
 
 /* Social */
 .social__container {
-  grid-template-columns: max-content;
+  display: flex;
   gap: 1rem;
+  justify-content: center; 
 }
 
 .social__link {
-  display: inline-flex;
-  align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
@@ -274,7 +273,7 @@ img {
 }
 
 .social__icon {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-right: .25rem;
 }
 
@@ -329,12 +328,13 @@ img {
 
 /* Habilidades */
 .skills__content {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0;
+   justify-content: center;
+   gap: 0;
 }
 
-.skills__name {
+.skills__data {
   display: flex;
+  font-size: 3rem;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
@@ -423,4 +423,8 @@ img {
   .home__button-movil {
     display: none;
   }
+  .social__container, .skills__content {
+    justify-content: left;
+  }
+  
 }

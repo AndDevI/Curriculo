@@ -24,41 +24,35 @@
                         </li> 
                         
                         <li class="nav__item">
-                            <a href="#perfil" class="nav__link">
+                            <a href="#profile" class="nav__link">
                               <i class='bx bx-user nav__icon'></i>Perfil
                             </a>
                         </li>
                         
                         <li class="nav__item">
-                            <a href="#educacao" class="nav__link">
+                            <a href="#education" class="nav__link">
                                <i class='bx bx-book nav__icon'></i></i>Educação
                             </a>
                         </li>
                         
                         <li class="nav__item">
-                            <a href="#habilidades" class="nav__link">
+                            <a href="#skills" class="nav__link">
                               <i class='bx bx-receipt nav__icon'></i>Habilidades
                             </a>
                         </li>
                         
                         <li class="nav__item">
-                            <a href="#experciencia" class="nav__link">
+                            <a href="#experience" class="nav__link">
                               <i class='bx bx-briefcase nav__icon'></i>Experiência
                             </a>
                         </li>
                         
                         <li class="nav__item">
-                            <a href="#certificados" class="nav__link">
+                            <a href="#certificates" class="nav__link">
                               <i class='bx bx-award nav__icon'></i>Certificados
                             </a>
                         </li> 
-                        
-                        <!--<li class="nav__item">
-                            <a href="#referencias" class="nav__link">
-                              <i class='bx bx-link-external nav__icon'></i>Referências
-                            </a>
-                        </li>-->
-                  
+                
                   </ul>
               </div>
 
@@ -82,7 +76,7 @@
                           <h3 class="home_profession">Desenvolvedor</h3>
                           <!--Botão download curriculo-->
                           <div>
-                            <a download="" href="" class="home__button-movil">Download</a>
+                            <a download="" href="assets/Curriculo Andrew.pdf" class="home__button-movil">Download</a>
                           </div>
                       </div>
                       
@@ -102,7 +96,9 @@
                     </div>
 
                     <!-- Gerar e baixar pdf -->
-                    <i class='bx bxs-download generate-pdf' title="Gerar PDF" id="resume-button"></i>
+                    <a download="" href="assets/Curriculo Andrew.pdf">
+                      <i class='bx bxs-download generate-pdf' title="Gerar PDF" id="resume-button"></i>
+                    </a>  
                   </section>
                   
                   <!--Social-->
@@ -110,15 +106,15 @@
                   <h2 class="section-title">SOCIAL</h2>
                     <div class="social__container bd-grid">
                       <a href="https://www.linkedin.com/in/andrew-pires-rgcc/" target="_blank" class="social__link">
-                        <i class='bx bxl-linkedin-square social__icon' ></i> @andrewpires
+                        <i class='bx bxl-linkedin-square social__icon' ></i> 
                       </a>
 
                         <a href="https://github.com/AndDevI" target="_blank" class="social__link">
-                        <i class='bx bxl-github social__icon'></i> @andrewpires
+                        <i class='bx bxl-github social__icon'></i> 
                       </a>
 
                         <a href="https://w.app/7kemrf" target="_blank" class="social__link">
-                        <i class='bx bxl-whatsapp social__icon' ></i> @andrewpires
+                        <i class='bx bxl-whatsapp social__icon' ></i> 
                       </a>
                     </div>
                   </section>
@@ -129,6 +125,9 @@
                     <p class="profile__description">Atualmente, estou imerso em um processo de formação que abrange uma ampla gama de linguagens de programação, frameworks e conceitos fundamentais. Acredito firmemente na importância da aprendizagem contínua e na capacidade da tecnologia de transformar positivamente o mundo ao nosso redor.</p>
                   </section>
 
+              </div>
+             
+              <div class="resume__right">
                   <!--Educação-->
                   <section class="education section" id="education">
                     <h2 class="section-title">EDUCAÇÃO</h2>
@@ -176,22 +175,52 @@
                     </div>
                   </section>
 
-                  <!--Habilidades-->
+                  <!--Experiencia-->
+                  <section class="experience section" id="experience">
+                         <h2 class="section-title">Experiência</h2>
+                        
+                        <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <!--<span class="experience__line"></span>-->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Programador</h3>
+                              <span class="experience__company">Emprego Atual | EduTec</span>
+                              <p class="experience__description">Programando jogos 2D educacionais utilizando o software Construct 3</p>
+                            </div>
+                        </div>
+                  </section>   
+                
+                  <!--Certificados-->
+                  <section class="certificate section" id="certificates">
+                      <h2 class="section-title">CERTIFICADOS</h2>
+                      
+                      <div class="certificate__container bd-grid">
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Discover - Rocketseat</h3>
+                            <p class="certificate__description">O currículo de aprendizado inclui: Fundamentos da programação Web, HTML, CSS, JavaScript, Git e Github</p>
+                          </div>
+                      </div>
+                  </section>
+
+                   <!--Habilidades-->
                   <section class="skills section" id="skills">
                     <h2 class="section-title">Habilidades</h2>
                     <div class="skills__content bd-grid">
                       
                       <ul class="skills__data">
                           <li class="skills__name">
-                          <span class="skills_circle"></span>Html
+                          <i class='bx bxl-html5'></i>
                           </li>
                           
                           <li class="skills__name">
-                          <span class="skills_circle"></span>Css
+                          <i class='bx bxl-css3' ></i>
                           </li>
                           
                           <li class="skills__name">
-                          <span class="skills_circle"></span>JavaScript
+                          <i class='bx bxl-javascript'></i>
                           </li>
                       </ul>
                       <!--Colocar mais habilidades-->
@@ -210,38 +239,7 @@
                       </ul>-->
                     </div>
                   </section>
-              </div>
-             
-              <div class="resume__right">
-                <!--Experiencia-->
-                  <section class="experience section" id="experience">
-                         <h2 class="section-title">Experiência</h2>
-                        
-                        <div class="experience__content">
-                            <div class="experience__time">
-                              <span class="experience__rounder"></span>
-                              <!--<span class="experience__line"></span>-->
-                            </div>
 
-                            <div class="experience__data bd-grid">
-                              <h3 class="experience__title">Programador</h3>
-                              <span class="experience__company">Emprego Atual | EduTec</span>
-                              <p class="experience__description">Programando jogos 2D educacionais utilizando o software Construct 3</p>
-                            </div>
-                        </div>
-                  </section>   
-                
-                <!--Certificados-->
-                  <section class="certificate section" id="certificates">
-                      <h2 class="section-title">CERTIFICADOS</h2>
-                      
-                      <div class="certificate__container bd-grid">
-                          <div class="certificate__content">
-                            <h3 class="certificate__title">Discover - Rocketseat</h3>
-                            <p class="certificate__description">O currículo de aprendizado inclui: Fundamentos da programação Web, HTML, CSS, JavaScript, Git e Github</p>
-                          </div>
-                      </div>
-                  </section>
               </div>
           </div>
       </main>
