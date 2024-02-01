@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="Currículo Andrew" src=".github/preview.jpeg" width="100%">
+  <img alt="Currículo Andrew" src=".github/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
